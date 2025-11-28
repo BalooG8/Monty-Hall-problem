@@ -24,8 +24,7 @@ public class MontyHallGuessingGameExercise
         int playerChoice = scanner.nextInt();
         int montysChoice = montySelectsAGoat(door, playerChoice);
 
-        if (playerChoice >= 0 && playerChoice <= 2)
-        {
+        if (playerChoice >= 0 && playerChoice <= 2) {
             System.out.println("You picked door " + playerChoice + "!");
             openDoor(montysChoice, door);
         }
