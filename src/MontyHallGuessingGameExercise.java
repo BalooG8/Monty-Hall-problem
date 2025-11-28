@@ -8,7 +8,8 @@ import java.util.Scanner;
  * The user decides whether to switch door or not.
  * Since Monty knows what is hidden behind the doors, there is a greater chance to win if the user switches door.
  */
-public class MontyHallGuessingGameExercise {
+public class MontyHallGuessingGameExercise
+{
     /**
      * Runs the guessing game
      * @param args not used
