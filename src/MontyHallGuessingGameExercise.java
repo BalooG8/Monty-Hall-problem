@@ -24,7 +24,7 @@ public class MontyHallGuessingGameExercise
         int playerChoice = scanner.nextInt();
         int montysChoice = montySelectsAGoat(door, playerChoice);
 
-        System.out.println("You picked door " + playerChoice + "!");
+        System.out.println("You picked door " + playerChoice + "!!");
         openDoor(montysChoice, door);
         System.out.println("Monty asks: Do you want to switch door? (yes/no)");
         scanner.nextLine(); //Flush the newline character in the scanner
