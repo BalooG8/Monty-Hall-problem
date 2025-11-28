@@ -29,7 +29,6 @@ public class MontyHallGuessingGameExercise
             System.out.println("You picked door " + playerChoice + "!");
             openDoor(montysChoice, door);
         }
-
         else
         {
             System.out.println("Du måste välja 0, 1 eller 2 för att spela");
